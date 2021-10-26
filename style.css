@@ -1,0 +1,33 @@
+h1 {
+    font-size: 20px;
+    color: blue ;
+    margin:10px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    
+  }
+ 
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 15x;
+    font-weight: bold;
+  
+    
+  }
+
+  .divBusca {
+    display: flex;
+    justify-content: center;
+  }
+
+  .lista {
+  list-style: none;
+  }
+
+  .cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+  }
