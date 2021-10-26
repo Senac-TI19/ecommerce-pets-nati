@@ -5,9 +5,8 @@
   "display": "standalone",
   "name": "Ecommerce Pets ",
   "orientation": "any",
-  "scope": "/",
   "short_name": "Ecommerce Pets",
-  "start_url": "/index.html",
+  "start_url": "./",
   "theme_color": "#ffffff",
   "categories": [],
   "screenshots": [],
@@ -34,14 +33,17 @@
     },
     {
       "src": "icons/apple-icon-57x57.png",
+      "type": "image/png",
       "sizes": "57x57"
     },
     {
       "src": "icons/apple-icon-60x60.png",
+      "type": "image/png",
       "sizes": "60x60"
     },
     {
       "src": "icons/apple-icon-72x72.png",
+      "type": "image/png",
       "sizes": "72x72"
     },
     {
@@ -50,29 +52,37 @@
     },
     {
       "src": "icons/apple-icon-114x114.png",
+      "type": "image/png",
       "sizes": "114x114"
     },
     {
       "src": "icons/apple-icon-120x120.png",
+      "type": "image/png",
       "sizes": "120x120"
     },
     {
       "src": "icons/apple-icon-144x144.png",
+      "type": "image/png",
       "sizes": "144x144"
     },
     {
       "src": "icons/apple-icon-152x152.png",
+      "type": "image/png",
       "sizes": "152x152"
     },
     {
       "src": "icons/apple-icon-180x180.png",
+      "type": "image/png",
       "sizes": "180x180"
     },
     {
-      "src": "icons/ms-icon-144x144.png"
+      "src": "icons/ms-icon-144x144.png",
+      "type": "image/png",
+      "sizes":"144x144"
     },
     {
-      "src": "icons/favicon 512x512.png",
+      "src": "icons/favicon-512x512.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
