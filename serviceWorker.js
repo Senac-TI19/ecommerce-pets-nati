@@ -5,6 +5,7 @@ const recursosCacheados = [
     "./index.html",
     "./style.css",
     "./index.js",
+    "./favicon.ico",
     "./manifest.json",
     "./icons/android-icon-192x192.png",
     "./icons/favicon-32x32.png",
