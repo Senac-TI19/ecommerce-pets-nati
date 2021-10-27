@@ -5,6 +5,8 @@ const recursosCacheados = [
     "./index.html",
     "./style.css",
     "./index.js",
+    "./manifest.json",
+    "./favicon.ico",
     "./icons/android-icon-192x192.png",
     "./icons/favicon-32x32.png",
     "./icons/favicon-96x96.png",
@@ -33,6 +35,19 @@ self.addEventListener("install", function (event) {
 });
 
 
-self.addEventListener("activate", function () {
-    console.log("Service worker ativado!");
-});
+self.addEventListener("fetch", function (event) {
+    console.log(`Request para o recurso ${event.request.url}`);
+    event.respondWith(
+      caches.match(event.request).then(function (response) {
+        if (response) {
+          console.log(`Recurso encontrado no cache: ${event.request.url}`);
+          return response;
+        } else {
+          console.log(
+            `Recurso não encontrado no cache. Fazendo request para ${event.request.url}`
+          );
+          return fetch(event.request);
+        }
+      })
+    );
+  });
